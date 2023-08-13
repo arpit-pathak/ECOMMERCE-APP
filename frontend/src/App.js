@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  return <div className="App">ecommerce frontend</div>;
+  return (
+    <>
+      <Header />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
